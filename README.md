@@ -1,2 +1,1 @@
-# Instructions
-Download the hello_world.ipynb file and upload it to your Jupyter Hub instance at [jupyter.indieagi.org](jupyter.indieagi.org)
+1. Click on this link and follow instructor (LLM notebook link)[https://jupyter.indieagi.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Findieagi%2FLLM_workshop_1_notebooks&urlpath=tree%2FLLM_workshop_1_notebooks%2Flangchain_falcon.ipynb&branch=main]
