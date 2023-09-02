@@ -1,4 +1,9 @@
+#!/usr/bin/env python3
+
+# Import standard Python library
 import os
+
+# Import third party libraries
 from dotenv import load_dotenv
 from langchain import HuggingFaceHub, LLMChain, PromptTemplate
 import chainlit as cl
@@ -7,7 +12,7 @@ import chainlit as cl
 load_dotenv()
 token = os.getenv('HUGGINGFACE_API_TOKEN')
 
-# Set up the Hugging Face LLM with Falcon-7B
+# Set up the Hugging Face LLM with Falcon-7B-Instruct
 llm = HuggingFaceHub(
     huggingfacehub_api_token=token,
     repo_id="tiiuae/falcon-7b-instruct",
@@ -18,8 +23,10 @@ llm = HuggingFaceHub(
 )
 
 # Define the prompt template for the Chainlit UI
-template = """Question: {question}
-Answer: Let's think step by step.
+template = """
+You are a helpful assistant.
+
+{question}
 """
 
 # Define the chat start event for Chainlit UI

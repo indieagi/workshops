@@ -63,7 +63,7 @@ mkdir src
 
 Change to that directory:
 ```
-cd ~/src
+cd src
 ```
 
 Clone this repo:
