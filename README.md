@@ -37,6 +37,12 @@ If this command fails or there is no output, you must install Python.
 #### Install `python3`
 You can install `python` by downloading and running the installer at `https://www.python.org/ftp/python/3.11.5/python-3.11.5-amd64.exe`
 
+#### Install `pip`
+Run the following command:
+```
+python -m ensurepip --upgrade
+```
+
 #### Check for `git`
 Run the following command:
 ```
@@ -86,6 +92,12 @@ python3 --version
 ```
 If this command fails or there is no output, you must install Python.
 
+#### Install `pip`
+Run the following command:
+```
+python3 -m ensurepip --upgrade
+```
+
 #### Install `git`
 ```
 xcode-select --install
@@ -126,6 +138,12 @@ Test that `python3` is installed on your system:
 python3 --version
 ```
 If this command fails or there is no output, you must install Python.
+
+#### Install `pip`
+Run the following command:
+```
+sudo apt install python3-pip
+```
 
 #### Install `git`
 Install `git`:

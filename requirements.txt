@@ -1,3 +1,4 @@
+huggingface_hub
 python-dotenv
 langchain
 chainlit
