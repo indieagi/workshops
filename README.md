@@ -179,12 +179,12 @@ ls -l
 ```
 
 ## Code Tutorial
-To start the code tutorial, we will copy the Jupyter Notebook to your Google Drive and then open it with Google Colab.
+First, you need to activate Google Colab for your Google Account. This is free.
 
-Open a browser window and navigate to `drive.google.com`. You'll need to sign in using a Google Account.
+Go to `colab.research.google.com`
 
-Click `New > File Upload` in the top-left corner of Google Drive. Navigate to your `~/src/workshops` folder and select `intro-to-full-stack-llm.ipynb`
+Click the "Upload" tab. Navigate to your `~/src/workshops` folder and select `intro-to-full-stack-llm.ipynb`
 
-In Google Drive, double-click on `intro-to-full-stack-llm.ipynb` to open it. You'll follow the instructions in the Jupyter Notebook from here on.
+Your workshop notebook should now be open. Go ahead and start the tutorial from there.
 
 Easter Egg: In Colab, go to `Tools > Settings > Miscellaneous > Corgi mode`.
